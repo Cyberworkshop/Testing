@@ -1,0 +1,791 @@
+/* Migration Tech Name - Govind  */
+/* Date:30 July 2012 */
+
+
+/* |-------------------------| CUSTOM FONTS |----------------------|*/
+  
+  h1{
+  font-size:30px;
+  line-height: 30px;
+  font-weight:normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#666666;
+  text-shadow: 0px 1px 1px #fff;
+}
+  h2{
+  font-size:20px;
+  line-height: 20px;
+  font-weight:normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#666666;
+  text-shadow: 0px 1px 1px #fff;
+}
+
+/* |-------------------------| HTML,BODY |--------------------------| */
+html,body#Body {}
+table td {
+    font-size: inherit !important;
+    font-family: Arial !important;
+}
+
+/* |-------------------------| BODY CONTAINER |---------------------| */
+#foxboro_body_home {
+width:100% !important;
+background-image: url(/Portals/190275/images/home-bg-slice.png); background-repeat: repeat-x;
+
+}
+
+#foxboro_body {
+width:100% !important;
+background-image: url(/Portals/190275/images/nav-bg.png ); background-repeat: repeat-x;
+
+}
+
+/* |-------------------------| CONTAINER |--------------------------| */
+#foxboro_container {
+width: 980px !important}
+
+
+/* |-------------------------| COURTESY LINKS |---------------------| */
+#foxboro_courtesy_links {
+background-color: transparent !important;
+   
+}
+
+#foxboro_courtesy_links,
+#foxboro_courtesy_links a {
+    font-size: 11px;
+    font-weight: normal;
+padding: 5px 5px 0px 5px;
+float: right;
+}
+
+#foxboro_courtesy_links a {
+color:#333333 !important;
+}
+
+#foxboro_courtesy_links a:hover {
+color:#00a0df !important;
+}
+
+/* |-------------------------| HEADER |-----------------------------| */
+#foxboro_header {
+background-color: transparent !important;
+}
+
+#foxboro_header span.logo {}
+
+#foxboro_header span.logo a {}
+
+#foxboro_header #mustardit-logo{
+    float:left;
+    padding-bottom: 13px;
+    
+}
+
+#foxboro_header .caption{
+    width: 980px;
+    text-align:left;
+    margin:0px 0px 2px 0px;
+    font-size: 10px;
+    font-weight: normal;
+    color:#cccccc;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+#foxboro_header #phone{
+    float:right;
+    margin:8px 3px 0 0;
+    font-family: georgia, times new roman, serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color:#333;
+}
+#foxboro_header #phone span{
+    color:#00a0df;
+}
+
+/* |-------------------------| MAIN MENU |--------------------------| */
+#foxboro_menu {
+
+    
+}
+
+#foxboro_menu .radmenu {
+    margin-top: -50px;
+    margin-bottom: 5px;
+    margin-right:140px;
+    float:right !important;
+    
+  
+    
+    
+
+}
+
+#foxboro_menu ul.rootGroup {
+    overflow-x:visible !important;
+    
+
+    
+}
+
+#foxboro_menu ul.rootGroup > li.item > a.link .expandTop{
+
+}
+
+#foxboro_menu ul.rootGroup > li.item > a.link:hover .expandTop{}
+
+#foxboro_menu ul.rootGroup > li.item {   
+margin-top:10px;
+margin-bottom:10px;
+text-align:right !important;
+}
+
+#foxboro_menu ul.rootGroup > li.first {
+}
+
+#foxboro_menu ul.rootGroup > li.item > a.link {
+    
+}
+
+#foxboro_menu ul.rootGroup > li.item > a.link > span.text {
+    font-size:12px;
+    font-weight:normal;
+    padding:0px 15px;
+    
+
+}
+
+#foxboro_menu ul.rootGroup > li.item:hover {}
+
+#foxboro_menu ul.rootGroup > li.item:hover > a.link {}
+
+#foxboro_menu ul.rootGroup > li.item:hover > a.link > span.text {}
+
+/* |-------------------------| DROP DOWN MENU |---------------------| */
+
+#foxboro_menu ul.group{
+background:#fff;
+}
+
+#foxboro_menu div.slide {}
+
+#foxboro_menu div.slide ul {}
+
+#foxboro_menu div.slide ul.group > li.item {}
+
+#foxboro_menu div.slide ul.group > li.item > a.link{}
+
+#foxboro_menu div.slide ul.group > li.item > a.link > span.text{
+    font-size:12px;
+    font-weight:normal;
+  
+}
+
+#foxboro_menu div.slide ul.group > li.item:hover {}
+
+#foxboro_menu div.slide ul.group > li.item:hover > a.link {}
+
+#foxboro_menu div.slide ul.group > li.item:hover > a.link > span.text{}
+
+/* |-------------------------| LANDING PAGE MENU |------------------| */
+#foxboro_menu div.NavHidden {
+	display:none;
+}
+
+#foxboro_menu div.NavHidden ul.rootGroup {}
+
+/* |-------------------------| CONTENT |----------------------------| */
+#foxboro_content {}
+
+/* |-------------------------| TOP & BOTTOM |-----------------------| */
+#foxboro_top,
+#foxboro_bottom {}
+
+#foxboro_top #dnn_TopPane {
+padding-top:20px;
+}
+
+#foxboro_bottom {}
+
+#foxboro_bottom #dnn_BottomPane {}
+
+#foxboro_home_ad {
+display:block; 
+width:980px; 
+height:550px;
+
+}
+
+#foxboro_topcol1{
+display:block; 
+float:left;
+width:450px; 
+height:500px;
+text-align: center;
+font-size: 15px;
+font-weight: normal !important;
+line-height: 18px;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #666;
+text-shadow: 0px 1px 1px white;
+position:relative;
+overflow:hidden;
+}
+
+#foxboro_topcol2{
+display:block; 
+float:right;
+width:450px; 
+height:500px;
+text-align: center;
+font-size: 15px;
+font-weight: normal !important;
+line-height: 18px;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #666;
+text-shadow: 0px 1px 1px white;
+position:relative;
+overflow:hidden;
+}
+
+}
+
+
+#fadeshow1 {position:relative; float:left; z-index:1; text-align:left; margin-top:20px;}
+
+
+/* |-------------------------| COLUMN CONTAINERS |------------------| */
+#foxboro_one-column,
+#foxboro_two-column,
+#foxboro_two-column-right,
+#foxboro_three-column,
+#foxboro_two-eq-column,
+#foxboro_three-eq-column {
+    padding-top:0px;
+    margin-top:10px;
+}
+
+#foxboro_two-column-right{
+    
+}
+#foxboro_three-column{
+     
+}
+
+#foxboro_three-eq-column{
+    overflow:auto;
+    float:left;
+}
+#foxboro_two-column{
+    
+}
+#foxboro_two-eq-column{
+    background: url("images/table-backing-white.png") repeat-x left top #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 10px;
+    overflow:auto;
+    float:left;
+}
+/* |-------------------------| COLUMN |-----------------------------| */
+#foxboro_col1,
+#foxboro_col2,
+#foxboro_col3 {
+	overflow:hidden;
+}
+
+/* |-------------------------| COLUMNS FOR ALL LAYOUTS |-----------------------------| */
+#foxboro_two-column #foxboro_col1,
+#foxboro_two-column-right #foxboro_col3,
+#foxboro_three-column #foxboro_col1,
+#foxboro_three-column #foxboro_col3 {
+}
+
+#foxboro_three-column #foxboro_col1,
+#foxboro_three-column #foxboro_col3 {
+width: 25%;
+padding-top: 10px;
+background: url("images/table-backing.png") repeat-x left top white;
+border: 1px solid #CFCFCF;
+border-radius: 5px 5px 5px 5px;
+margin: 0 12px;
+   
+}
+
+#foxboro_two-column #foxboro_col1,
+#foxboro_two-column-right #foxboro_col3{
+    width: 30%;
+    padding-top:10px;
+    background: url("images/table-backing.png") repeat-x left top #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 12px;
+}
+
+#foxboro_two-column #foxboro_col2{
+    margin-left:10px;
+}
+
+#foxboro_two-column #foxboro_col2,
+#foxboro_two-column-right #foxboro_col2 {
+    width:66.3%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#foxboro_three-column #foxboro_col2 {
+    width:47.4%; 
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0px 10px;
+}
+
+#foxboro_two-eq-column #foxboro_col1,
+#foxboro_two-eq-column #foxboro_col3 {}
+
+#foxboro_three-eq-column #foxboro_col1,
+#foxboro_two-eq-column #foxboro_col1,
+#foxboro_two-eq-column #foxboro_col3 {
+}
+
+#foxboro_three-eq-column #foxboro_col1{
+width:31%;
+  padding-top:10px;
+  background: url("images/table-backing.png") repeat-x left top #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 10px;
+}
+#foxboro_three-eq-column #foxboro_col2{
+width:31%;
+  padding-top:10px;
+  background: url("images/table-backing.png") repeat-x left top #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 10px;
+}
+#foxboro_three-eq-column #foxboro_col3 {
+   width:31%;
+   padding-top:10px;
+   background: url("images/table-backing.png") repeat-x left top #FFFFFF;
+   border: 1px solid #CFCFCF;
+   border-radius: 5px 5px 5px 5px;
+   margin: 0 10px;
+}
+#foxboro_three-eq-column #foxboro_col2{
+    margin:0px 10px;
+}
+#foxboro_four-col {
+    width:196px;
+    padding:0 5px 10px 5px;
+    background: url("images/table-backing.png") repeat-x left top #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 5px 10px 5px;
+    float:left;
+    overflow:auto;
+    }
+#foxboro_four-col ul{
+-webkit-padding-start: 10px !important;
+}
+#foxboro_four-col ul li{
+background: url("images/tick.png") no-repeat left 2px;
+padding: 0px 0px 0px 14px;
+list-style-type: none;
+}
+
+#foxboro_three-col {
+    width:270px;
+    height: 175px;
+    padding:0 5px 10px 5px;
+    background: url("images/table-backing.png") repeat-x left top #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 5px 10px 5px;
+    float:left;
+    overflow:auto;
+    }
+
+#foxboro_center{
+margin-left:auto;
+margin-right:auto;
+width:90%;
+display:block;
+}
+
+
+/* |-------------------------| SIDE-MENU |--------------------------| */
+#foxboro_side-menu_top,
+#foxboro_side-menu_bottom {}
+
+/* |-------------------------| DIV.BLOCK |--------------------------| */
+#foxboro_content div.block {
+margin: 0 !important;
+}
+
+/* |-------------------------| DIV.PAD |----------------------------| */
+#foxboro_content #foxboro_col2 div.pad li, 
+#foxboro_content #foxboro_col2 div.pad p,
+#foxboro_content #foxboro_col2 div.pad .subhead,
+#foxboro_content #foxboro_col2 div.pad .Normal,
+#foxboro_content #foxboro_col2 div.pad .ISContent{
+    font-size:12px;
+    line-height:15px;
+}
+
+#foxboro_content #foxboro_col1 div.block div.pad li, 
+#foxboro_content #foxboro_col1 div.block div.pad p,
+#foxboro_content #foxboro_col1 div.block div.pad .subhead,
+#foxboro_content #foxboro_col1 div.block div.pad .Normal,
+#foxboro_content #foxboro_col1 div.block div.pad .ISContent{ 
+    font-size:12px;
+    line-height:15px; 
+}
+
+#foxboro_content #foxboro_col3 div.block div.pad li, 
+#foxboro_content #foxboro_col3 div.block div.pad p,
+#foxboro_content #foxboro_col3 div.block div.pad .subhead,
+#foxboro_content #foxboro_col3 div.block div.pad .Normal,
+#foxboro_content #foxboro_col3 div.block div.pad .ISContent{ 
+    font-size:12px;
+    line-height:15px; 
+}
+
+#foxboro_one-column #foxboro_col2 div.pad {}
+
+#foxboro_three-column #foxboro_col1 div.block div.pad {}
+
+#foxboro_three-column #foxboro_col2 div.pad {}
+
+#foxboro_three-column #foxboro_col3 div.block div.pad {}
+
+#foxboro_three-eq-column #foxboro_col2 div.pad {}
+
+#foxboro_three-eq-column #foxboro_col1 div.block div.pad {
+     margin:0px;
+}
+
+#foxboro_content #foxboro_two-column-right div.block div.pad {}
+
+#foxboro_two-column-right #foxboro_col2 div.pad {}
+
+#foxboro_two-column #foxboro_col2 div.pad {}
+
+#foxboro_content #foxboro_col1 div.block div.pad, 
+#foxboro_content #foxboro_col3 div.block div.pad {
+    padding: 8px 10px;
+}
+
+/* |-------------------------| FOOTER |-----------------------------| */
+#foxboro_footer {
+    margin-top:20px !important;
+    width: 100% !important;
+    display:block;
+}
+
+#foxboro_footer div.clear {}
+
+#foxboro_footer,
+#foxboro_footer a,
+#foxboro_footer span,
+#foxboro_footer p.copyright,
+#foxboro_footer p.copyright a {
+    font-size:12px !important;
+}
+
+/* Hide footer links if required */
+#foxboro_footer span#dnn_dnnLINKS_lblLinks {
+    display:none;
+}
+
+#foxboro_footer span#footerContainer {}
+
+#foxboro_footer #footer-links{
+    float:left;
+    margin:15px 0px 30px;
+    width:100%;
+    border-left:1px solid #333;
+}
+
+#foxboro_footer #footer-links a{
+    padding:0px 14px;   
+    border-right:1px solid #333; 
+}
+
+#foxboro_footer #footer-links a:hover{
+    color:#00A0DF !important;
+    text-decoration:none !important;
+}
+
+#foxboro_footer p.copyright {
+    float:left;
+    background:#333;
+    width:100%;
+    color:#fff;
+    padding:16px 0px;
+   
+}
+#foxboro_footer p.copyright a{
+    color:#999999;
+    text-decoration:none;
+}
+
+#foxboro_footer .footer-caption{
+
+    text-alignt:left;
+    margin:40px 0px 0px;
+    color: #CCCCCC;
+    letter-spacing: -0.1px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+#foxboro .social{
+    padding: 0 0 100px 0
+    width:100%;
+    position: relative;
+margin:0px 0px;
+}
+
+#foxboro_footer #socialwrapper span{
+    color:#E6AC00;
+}
+
+#foxboro_footer #socialwrapper .social{
+    float:right;
+    margin:0px 0px;
+}
+
+/* |-------------------------| HEADINGS |---------------------------| */
+/* Set Font sizes, font weight and text decoration */
+#foxboro_col2 h1 {
+     font-size:30px;
+  font-weight:normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#666666;
+  text-shadow: 0px 1px 1px #fff;
+    
+}
+
+#foxboro_col2 h2 {
+ font-size:18px;
+  font-weight:normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#00A0DF !important;
+  text-shadow: 0px 1px 1px #fff;
+
+}
+
+#foxboro_col2 h3 {
+    font-size:14px;
+    font-weight:bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#foxboro_col2 h3 icon {
+    width:40px
+    height 40px:
+    vertical-align:middle
+}
+
+#foxboro_col2 h4 {}
+
+#foxboro_content div.block h3 {
+    font-size:18px;
+   
+}
+
+#foxboro_two-eq-column #foxboro_col1 div.block h3,
+#foxboro_two-eq-column #foxboro_col3 div.block h3,
+#foxboro_three-eq-column #foxboro_col2 div.block h3,
+#foxboro_three-eq-column #foxboro_col1 div.block h3{
+    color:#333333 !important;
+}
+
+#foxboro_content div.block h1 {
+font-size: 20px !important;
+    font-weight:normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+line-height: 15px;
+ text-shadow: 0px 1px 1px #fff;
+-webkit-margin-before: 10px;
+-webkit-margin-after: 10px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+    
+}
+
+#foxboro_content div.block h2 {
+    font-size: 15px;
+    font-weight: normal !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#foxboro_content div.block div.pad div div h3 {
+    font-size:22px;
+    
+}
+
+#foxboro_content div.block h4 {}
+
+#foxboro_top h1 {
+  font-size:30px;
+  font-weight:normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#666666;
+  text-shadow: 0px 1px 1px #fff;
+  
+}
+
+#foxboro_top h2 {
+   font-size:18px;
+  font-weight:normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#00A0DF !important;
+  text-shadow: 0px 1px 1px #fff;
+}
+
+#foxboro_top h3 {
+    font-size:14px;
+    font-weight:bold;
+}
+
+#foxboro_top h4 {}
+
+#foxboro_bottom h1 {
+    font-size:18px;
+    color:#00A0DF;
+    
+}
+
+#foxboro_bottom h2 {
+    font-size:14px;
+    font-weight:bold;
+}
+
+#foxboro_bottom h3 {
+    font-size:14px;
+    font-weight:bold;
+}
+
+#foxboro_bottom h4 {}
+
+/* |-------------------------| LINKS |------------------------------| */
+#foxboro_top a,
+#foxboro_bottom a,
+#foxboro_col2 a,
+#foxboro_content div.block a {}
+
+#foxboro_top a:hover,
+#foxboro_bottom a:hover,
+#foxboro_col2 a:hover,
+#foxboro_content div.block a:hover {
+    text-decoration:underline;
+}
+
+/* |-------------------------| LISTS |------------------------------| */
+#foxboro_content div.block ul {
+    list-style:none;
+    margin:0px;
+}
+
+#foxboro_content div.block ul li {
+    background:url("images/tick.png") no-repeat left 2px;
+    padding:0px 0px 10px 14px;
+
+}
+
+#foxboro_content div.block ol {}
+
+#foxboro_content div.block ol li {}
+
+#foxboro_one-column #foxboro_col2 ul,
+#foxboro_two-column #foxboro_col2 ul,
+#foxboro_two-column-right #foxboro_col2 ul,
+#foxboro_three-column #foxboro_col2 ul {
+    list-style-type: none;
+}
+
+#foxboro_one-column #foxboro_col2 ul li,
+#foxboro_two-column #foxboro_col2 ul li,
+#foxboro_two-column-right #foxboro_col2 ul li,
+#foxboro_three-column #foxboro_col2 ul li {
+    background:url("images/tick.png") no-repeat left 2px;
+    padding:0px 0px 0px 14px;
+}
+
+#foxboro_one-column #foxboro_col2 ol,
+#foxboro_two-column #foxboro_col2 ol,
+#foxboro_two-column-right #foxboro_col2 ol,
+#foxboro_three-column #foxboro_col2 ol {}
+
+#foxboro_one-column #foxboro_col2 ol li,
+#foxboro_two-column #foxboro_col2 ol li,
+#foxboro_two-column-right #foxboro_col2 ol li,
+#foxboro_three-column #foxboro_col2 ol li {}
+
+/* |-------------------------| BLOG |-------------------------------| */
+#bb-container {}
+
+#bb-container div.post,
+#bb-container div.post p,
+#bb-container div.post li {
+    font-size:12px;
+    line-height:15px;
+}
+
+
+#bb-container div.post div.byline {
+    font-size:12px;
+    line-height:15px;
+}
+
+/* Styling for blog post title */
+#foxboro_content #bb-container div.post h3.title,
+#foxboro_content #bb-container div.post h3.title > a{
+    font-weight:bold;
+}
+
+#foxboro_content #bb-container div.post h3.title > a:hover {}
+
+/* |-------------------------| FORMS |------------------------------| */
+.IngeniMailSubscribeEmailInput {
+        width:94% !important;
+}
+
+.ContactFormWrapper {}
+
+/* |-------------------------| OTHER HTML ELEMENTS |----------------| */
+hr {
+      border: 0;
+    border-bottom: 1px dashed #ccc;
+    
+    
+}
+
+blockquote {}
+
+pre {}
+
+/* |-------------------------| CUSTOM ELEMENTS |--------------------| */
+.BasicCSSContainer p,
+.BasicCSSContainer h3 {}
+
+/* |-------------------------| MOBILE OPTIMIZATION |----------------| */
+#header {}
+
+#col1 {
+   
+}
+#col1 h2.ContainerTitle {
+
+}
+
+#col3 {
+
+}
